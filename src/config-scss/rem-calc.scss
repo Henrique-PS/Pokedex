@@ -1,5 +1,5 @@
 // no SCSS é possível criar funções. Nessa função estou convertendo qualquer valor do size (ex: px) para "rem" 
 @function rem-calc($size){
   $value: $size / 16;
-  @return #{value}rem
+  @return #{$value}rem
 } 
