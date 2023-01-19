@@ -17,6 +17,9 @@ import { DetailsComponent } from './details/details.component';
     HomeComponent,
     DetailsComponent
   ],
+  exports: [
+    SharedModule
+  ],  
   imports: [
     CommonModule,
     RoutingModule,
